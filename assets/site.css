@@ -82,3 +82,9 @@ html{overflow-anchor:none;scroll-behavior:auto}
 @media(max-width:760px){.sidebar .wordmark{font-size:30px;letter-spacing:-1.3px}}
 @media(max-width:760px){#about .about-break{display:none}}
 
+/* On wide screens, color the outer gutter without moving the sidebar or text. */
+@media(min-width:1340px){
+  body{background:linear-gradient(to right,var(--sidebar-bg) 50%,var(--bg) 50%)}
+  .page-content{background-color:var(--bg)}
+}
+
