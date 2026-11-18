@@ -1,0 +1,10 @@
+_site/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.env
+.env.*
+_drafts/
+_notes/
+*.log
